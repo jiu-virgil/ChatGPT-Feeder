@@ -1,11 +1,11 @@
-import json
 import os
 import pickle
+import tempfile
 from pathlib import Path
 import pyperclip
 
-# Constants
-PICKLE_FILE = ".last_selection.pickle"
+# Use a more descriptive name for the pickle file
+PICKLE_FILE = os.path.join(tempfile.gettempdir(), "spoon_app_state.pickle")
 IGNORE_FILE = ".gitignore"
 
 
@@ -42,36 +42,37 @@ def find_python_files():
     return python_files
 
 
-def load_last_selection():
-    """Loads the last file selection from a pickle file."""
+def load_app_state():
+    """Loads the last application state from a pickle file."""
     if Path(PICKLE_FILE).exists():
         with open(PICKLE_FILE, "rb") as f:
             return pickle.load(f)
-    return set()
+    return {"selected_files": set(), "select_all_state": False, "file_extension": ".py"}
 
 
-def save_last_selection(selected_files):
-    """Saves the last file selection to a pickle file."""
+def save_app_state(selected_files, select_all_state, file_extension):
+    """Saves the application state to a pickle file."""
+    app_state = {
+        "selected_files": selected_files,
+        "select_all_state": select_all_state,
+        "file_extension": file_extension,
+    }
     with open(PICKLE_FILE, "wb") as f:
-        pickle.dump(selected_files, f)
+        pickle.dump(app_state, f)
 
 
 def collect_file_data(selected_files):
-    """Collects data from the specified files and returns a dictionary with titles and contents, with titles as comments."""
+    """Collect data from the specified files and return a dictionary with titles and contents."""
     file_data = {}
-
     for file_path in selected_files:
-        if os.path.isfile(file_path):  # Ensure the file path is valid
+        if os.path.isfile(file_path):
             try:
                 with open(file_path, "r", encoding="utf-8") as f:
-                    file_title = os.path.basename(file_path)  # Extract the file name
-                    file_contents = f.read()  # Read file contents as plain text
-                    # Add file name as a comment at the start of the contents
-                    # Ensure the file name is only included as a comment
+                    file_title = os.path.basename(file_path)
+                    file_contents = f.read()
                     file_data[file_title] = file_contents.strip()
             except Exception as e:
                 print(f"Error reading file {file_path}: {e}")
-
     return file_data
 
 

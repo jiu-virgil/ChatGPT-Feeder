@@ -3,14 +3,13 @@ from PySide6.QtGui import QIcon
 from PySide6.QtCore import Qt
 from pathlib import Path
 import os
-from ui.ui_helpers import refresh_tree_view
 
 
 class CheckableTreeWidgetItem(QTreeWidgetItem):
     def __init__(self, texts, parent=None):
         super().__init__(parent)
         self.setText(0, texts[0])  # Set text for the first column
-        self.setFlags(self.flags() | Qt.ItemIsUserCheckable)
+        self.setFlags(self.flags() | Qt.ItemIsUserCheckable | Qt.ItemIsEnabled)
         self.setCheckState(0, Qt.Unchecked)
         for i, text in enumerate(texts[1:], start=1):
             self.setText(i, text)
@@ -23,8 +22,19 @@ class FileTreeView(QTreeWidget):
         self.python_files = python_files
         self.extension = extension
         self.selected_files = selected_files
-        self.folder_icon = self._load_icon("resources/folder_icon.png")
-        self.file_icon = self._load_icon("resources/code_icon.png")
+
+        # Load icons or fall back to emojis
+        self.folder_icon = self._load_icon("resources/folder_icon.png") or "📁"
+        self.expanded_folder_icon = (
+            self._load_icon("resources/expanded_folder_icon.png") or "📂"
+        )
+        self.file_icon = self._load_icon("resources/file_icon.png") or "📄"
+
+        # Connect signals
+        self.itemExpanded.connect(self.handle_item_expanded)
+        self.itemCollapsed.connect(self.handle_item_collapsed)
+        self.itemDoubleClicked.connect(self.handle_item_double_clicked)
+
         self.populate_tree()
         self.expandAll()
 
@@ -54,11 +64,11 @@ class FileTreeView(QTreeWidget):
         )
 
         file_item = CheckableTreeWidgetItem([parts[-1]], parent_item)
-        if self.file_icon:
+        if isinstance(self.file_icon, QIcon):
             file_item.setIcon(0, self.file_icon)
-        file_item.setCheckState(
-            0, Qt.Checked if file_path in self.selected_files else Qt.Unchecked
-        )
+        else:
+            file_item.setText(0, f"{self.file_icon} {parts[-1]}")
+
         (
             parent_item.addChild(file_item)
             if parent_item
@@ -78,66 +88,17 @@ class FileTreeView(QTreeWidget):
 
     def _create_folder_item(self, part, parent_item):
         folder_item = CheckableTreeWidgetItem([part], parent_item)
-        (
+        if isinstance(self.folder_icon, QIcon):
             folder_item.setIcon(0, self.folder_icon)
-            if self.folder_icon
-            else folder_item.setText(0, f"📁 {part}")
-        )
+        else:
+            folder_item.setText(0, f"{self.folder_icon} {part}")
+
         (
             parent_item.addChild(folder_item)
             if parent_item
             else self.addTopLevelItem(folder_item)
         )
         return folder_item
-
-    def get_selected_files(self):
-        """Collect and return all selected files."""
-        selected_files = set()
-        root = self.invisibleRootItem()
-        self._collect_selected_files_recursive(root, selected_files)
-        return selected_files
-
-    def _collect_selected_files_recursive(self, item, selected_files):
-        """Recursively collect all selected files from the tree."""
-        for i in range(item.childCount()):
-            child = item.child(i)
-            # If the child is a file and is checked, add it to the selected files set
-            if child.checkState(0) == Qt.Checked and child.childCount() == 0:
-                # Extract the full path of the file by walking up the parent hierarchy
-                file_path = Path(self._get_full_path(child))
-                selected_files.add(file_path)
-            # Recursively check children (subfolders/files)
-            self._collect_selected_files_recursive(child, selected_files)
-
-    def _get_full_path(self, item):
-        """Reconstruct the full file path from the tree hierarchy."""
-        parts = []
-        while item is not None:
-            parts.append(item.text(0).split(" ", 1)[-1])  # Strip out emoji if present
-            item = item.parent()
-        return os.path.join(*reversed(parts))
-
-    def select_folder_children(self, item):
-        """Select all children when a folder is selected."""
-        select = item.checkState(0) == Qt.Checked
-        self._select_all_recursive(item, select)
-        refresh_tree_view(self)
-
-    def _select_all_recursive(self, item, select):
-        for i in range(item.childCount()):
-            child = item.child(i)
-            child.setCheckState(0, Qt.Checked if select else Qt.Unchecked)
-            self._select_all_recursive(child, select)
-
-    def _are_all_children_checked(self, item):
-        """Recursively check if all children of an item are checked."""
-        for i in range(item.childCount()):
-            child = item.child(i)
-            if child.checkState(0) != Qt.Checked:
-                return False
-            if not self._are_all_children_checked(child):
-                return False
-        return True
 
     def are_all_items_checked(self):
         """Check if all items in the tree are checked."""
@@ -168,3 +129,101 @@ class FileTreeView(QTreeWidget):
             if not self._are_all_children_unchecked(child):
                 return False
         return True
+
+    def handle_item_expanded(self, item):
+        """Handle the folder being expanded to toggle the icon."""
+        if item.childCount() > 0:  # It's a folder
+            if isinstance(self.expanded_folder_icon, QIcon):
+                item.setIcon(0, self.expanded_folder_icon)
+            else:
+                item.setText(
+                    0, f"📂 {item.text(0)[2:]}"
+                )  # Replace the first two chars (emoji + space)
+
+    def handle_item_collapsed(self, item):
+        """Handle the folder being collapsed to toggle the icon."""
+        if item.childCount() > 0:  # It's a folder
+            if isinstance(self.folder_icon, QIcon):
+                item.setIcon(0, self.folder_icon)
+            else:
+                item.setText(
+                    0, f"📁 {item.text(0)[2:]}"
+                )  # Replace the first two chars (emoji + space)
+
+    def select_folder_children(self, item):
+        """Select or deselect all children when a folder is selected or deselected."""
+        select = item.checkState(0) == Qt.Checked
+        self.blockSignals(True)  # Block signals to prevent recursion
+        self._select_all_recursive(item, select)
+        self.blockSignals(False)  # Unblock signals after update
+
+    def _select_all_recursive(self, item, select):
+        """Recursively select or deselect all children of an item."""
+        for i in range(item.childCount()):
+            child = item.child(i)
+            child.setCheckState(0, Qt.Checked if select else Qt.Unchecked)
+            self._select_all_recursive(child, select)
+
+    def update_parent_check_state(self, item):
+        """Recursively update the state of parent items based on the state of their children."""
+        parent = item.parent()
+        if parent is None:
+            return
+
+        all_checked = True
+        all_unchecked = True
+
+        for i in range(parent.childCount()):
+            child = parent.child(i)
+            if child.checkState(0) != Qt.Checked:
+                all_checked = False
+            if child.checkState(0) != Qt.Unchecked:
+                all_unchecked = False
+
+        self.blockSignals(True)  # Block signals to prevent recursion
+        if all_checked:
+            parent.setCheckState(0, Qt.Checked)
+        elif all_unchecked:
+            parent.setCheckState(0, Qt.Unchecked)
+        else:
+            parent.setCheckState(0, Qt.PartiallyChecked)
+        self.blockSignals(False)  # Unblock signals after update
+
+        # Recursively update the parent's state
+        self.update_parent_check_state(parent)
+
+    def on_item_changed(self, item):
+        """Handle item state change and update parent and children."""
+        if item.childCount() > 0:
+            # Update all children based on the folder's state (checked or unchecked)
+            self.select_folder_children(item)
+        self.update_parent_check_state(item)
+
+    def handle_item_double_clicked(self, item, column):
+        """Open the file in the default editor when double-clicked."""
+        if item.childCount() == 0:  # Only open if it's a file (no children)
+            file_path = self._get_full_path(item)
+            if os.path.isfile(file_path):
+                self.open_file_in_default_editor(file_path)
+
+    def _get_full_path(self, item):
+        """Reconstruct the full file path from the tree hierarchy."""
+        parts = []
+        while item is not None:
+            parts.append(item.text(0).split(" ", 1)[-1])  # Strip out emoji if present
+            item = item.parent()
+        return os.path.join(*reversed(parts))
+
+    def open_file_in_default_editor(self, file_path):
+        """Open the specified file in the default system editor."""
+        try:
+            if os.name == "nt":  # Windows
+                os.startfile(file_path)
+            elif os.name == "posix":  # macOS or Linux
+                subprocess.run(
+                    ["open", file_path]
+                    if sys.platform == "darwin"
+                    else ["xdg-open", file_path]
+                )
+        except Exception as e:
+            print(f"Failed to open {file_path}: {e}")

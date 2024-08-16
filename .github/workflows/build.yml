@@ -3,64 +3,128 @@ name: Build and Release
 on:
     push:
         tags:
-            - "v*" # This triggers the workflow for tags that start with 'v'
+            - "v*" # Trigger on version tags
     workflow_dispatch:
 
 jobs:
-    build:
-        runs-on: ${{ matrix.os }}
+    # Step 1: Install dependencies and cache them
+    dependencies:
+        runs-on: ubuntu-latest
         strategy:
             matrix:
                 os: [ubuntu-latest, macos-latest, windows-latest]
-
         steps:
             - name: Checkout code
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
 
             - name: Set up Python
-              uses: actions/setup-python@v2
+              uses: actions/setup-python@v4
               with:
                   python-version: "3.x"
 
-            - name: Install dependencies
+            - name: Cache Python packages
+              id: cache
+              uses: actions/cache@v3
+              with:
+                  path: |
+                      .venv
+                  key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+                  restore-keys: |
+                      ${{ runner.os }}-venv-
+
+            - name: Install dependencies if not cached
+              if: steps.cache.outputs.cache-hit != 'true'
               run: |
+                  python -m venv .venv
+                  source .venv/bin/activate
                   python -m pip install --upgrade pip
                   pip install -r requirements.txt
                   pip install pyinstaller
+              shell: bash
 
-            - name: Build with PyInstaller
+            - name: Save environment as artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: ${{ matrix.os }}-venv
+                  path: .venv/
+
+    # Step 2: Build for each OS concurrently
+    build:
+        needs: dependencies
+        runs-on: ${{ matrix.os }}
+        strategy:
+            fail-fast: false
+            matrix:
+                os: [ubuntu-latest, macos-latest, windows-latest]
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Download cached environment
+              uses: actions/download-artifact@v4
+              with:
+                  name: ${{ matrix.os }}-venv
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: "3.x"
+
+            - name: Activate virtual environment and install dependencies (Linux & macOS)
+              if: runner.os != 'Windows'
               run: |
+                  source .venv/bin/activate
+              shell: bash
+
+            - name: Activate virtual environment and install dependencies (Windows)
+              if: runner.os == 'Windows'
+              run: |
+                  .\.venv\Scripts\activate
+              shell: powershell
+
+            - name: Build with PyInstaller (Linux & macOS)
+              if: runner.os != 'Windows'
+              run: |
+                  source .venv/bin/activate
                   pyinstaller --onefile --windowed --icon=resources/spoon.png main.py
               shell: bash
 
-            - name: Upload artifact
-              uses: actions/upload-artifact@v2
+            - name: Build with PyInstaller (Windows)
+              if: runner.os == 'Windows'
+              run: |
+                  .\.venv\Scripts\activate
+                  pyinstaller --onefile --windowed --icon=resources/spoon.png main.py
+              shell: powershell
+
+            - name: Upload build artifact
+              uses: actions/upload-artifact@v4
               with:
                   name: ${{ matrix.os }}-build
                   path: dist/
 
+    # Step 3: Create a release concurrently with builds
     release:
-        needs: build
         runs-on: ubuntu-latest
+        needs: build
+        permissions:
+            contents: write # Required for creating a release
+            actions: read
+
         steps:
-            - name: Download Ubuntu artifact
-              uses: actions/download-artifact@v2
+            - name: Download all build artifacts
+              uses: actions/download-artifact@v4
               with:
-                  name: ubuntu-latest-build
+                  name: |
+                      ubuntu-latest-build
+                      macos-latest-build
+                      windows-latest-build
 
-            - name: Download macOS artifact
-              uses: actions/download-artifact@v2
+            - name: Create GitHub Release
+              uses: softprops/action-gh-release@v2
               with:
-                  name: macos-latest-build
-
-            - name: Download Windows artifact
-              uses: actions/download-artifact@v2
-              with:
-                  name: windows-latest-build
-
-            - name: Create Release
-              uses: softprops/action-gh-release@v1
-              with:
-                  files: dist/*
+                  files: |
+                      ubuntu-latest-build/*
+                      macos-latest-build/*
+                      windows-latest-build/*
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
