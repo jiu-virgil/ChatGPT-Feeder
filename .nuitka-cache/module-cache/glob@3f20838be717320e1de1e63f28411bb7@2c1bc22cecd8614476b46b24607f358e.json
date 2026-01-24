@@ -1,0 +1,241 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "glob",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\fnmatch.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "fnmatch",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 71
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 108
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 137
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 142
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 211
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 234
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 260
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 287
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 288
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 290
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 534
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 542
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.1905430000006163,
+      7,
+      {
+        "1": 582,
+        "2": 836,
+        "3": 73,
+        "4": 46,
+        "5": 17,
+        "6": 42,
+        "7": 45,
+        "8": 19,
+        "9": 11,
+        "10": 30,
+        "11": 21,
+        "12": 9,
+        "13": 8,
+        "14": 6,
+        "15": 2,
+        "16": 7,
+        "17": 6,
+        "18": 12,
+        "20": 15,
+        "21": 5,
+        "22": 11,
+        "23": 1,
+        "24": 1,
+        "25": 5,
+        "28": 4,
+        "29": 1,
+        "34": 5,
+        "35": 1,
+        "37": 1,
+        "38": 5,
+        "39": 1,
+        "40": 1,
+        "46": 1,
+        "50": 1,
+        "51": 1,
+        "61": 7
+      }
+    ]
+  ]
+}

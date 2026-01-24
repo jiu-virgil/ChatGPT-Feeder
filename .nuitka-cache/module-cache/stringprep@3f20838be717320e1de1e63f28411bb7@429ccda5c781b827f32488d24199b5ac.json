@@ -1,0 +1,36 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "stringprep",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\unicodedata.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "unicodedata",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.013978000002680346,
+      5,
+      {
+        "1": 58,
+        "2": 37,
+        "3": 15,
+        "4": 10,
+        "5": 20,
+        "6": 2,
+        "7": 6,
+        "8": 4,
+        "9": 10,
+        "10": 4,
+        "11": 5
+      }
+    ]
+  ]
+}

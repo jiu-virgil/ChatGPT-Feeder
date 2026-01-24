@@ -1,0 +1,93 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "sched",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 26
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\heapq.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "heapq",
+      "reason": "import",
+      "source_ref_line": 27
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 28
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.namedtuple",
+      "reason": "import fromlist",
+      "source_ref_line": 28
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 29
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\threading.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "threading",
+      "reason": "import",
+      "source_ref_line": 30
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 31
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.025289799999882234,
+      5,
+      {
+        "1": 126,
+        "2": 97,
+        "3": 5,
+        "4": 35,
+        "6": 5,
+        "7": 33,
+        "8": 10,
+        "9": 10,
+        "10": 2,
+        "12": 1,
+        "13": 1,
+        "22": 1,
+        "25": 3,
+        "26": 2
+      }
+    ]
+  ]
+}

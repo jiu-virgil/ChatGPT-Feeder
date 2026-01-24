@@ -1,0 +1,157 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "re",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 125
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 126
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re\\_compiler.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "re._compiler",
+      "reason": "import fromlist",
+      "source_ref_line": 126
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re\\_parser.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "re._parser",
+      "reason": "import fromlist",
+      "source_ref_line": 126
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 127
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sre",
+      "reason": "import",
+      "source_ref_line": 128
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 202
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 232
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 261
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\copyreg.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copyreg",
+      "reason": "import",
+      "source_ref_line": 381
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import path parent",
+      "source_ref_line": 393
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re\\_constants.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re._constants",
+      "reason": "import",
+      "source_ref_line": 393
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.3896311999997124,
+      6,
+      {
+        "1": 185,
+        "2": 201,
+        "3": 13,
+        "4": 8,
+        "5": 41,
+        "6": 39,
+        "7": 6,
+        "8": 1,
+        "12": 10,
+        "14": 4,
+        "15": 4,
+        "17": 4,
+        "18": 12,
+        "19": 1,
+        "21": 8,
+        "22": 6,
+        "23": 2,
+        "28": 3,
+        "30": 4,
+        "31": 1,
+        "33": 1,
+        "35": 4,
+        "43": 1,
+        "52": 1
+      }
+    ]
+  ]
+}

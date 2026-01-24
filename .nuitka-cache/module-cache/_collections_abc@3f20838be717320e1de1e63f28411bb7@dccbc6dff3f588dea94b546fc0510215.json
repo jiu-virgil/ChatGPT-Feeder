@@ -1,0 +1,80 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_collections_abc",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 1082
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 1091
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.7405881000013324,
+      7,
+      {
+        "1": 1743,
+        "2": 1690,
+        "3": 136,
+        "4": 115,
+        "5": 141,
+        "6": 87,
+        "7": 33,
+        "8": 21,
+        "9": 17,
+        "10": 12,
+        "11": 32,
+        "12": 88,
+        "13": 17,
+        "14": 20,
+        "15": 111,
+        "16": 44,
+        "17": 28,
+        "18": 45,
+        "19": 25,
+        "20": 13,
+        "21": 2,
+        "22": 8,
+        "23": 1,
+        "24": 7,
+        "25": 5,
+        "26": 11,
+        "27": 2,
+        "30": 2
+      }
+    ]
+  ]
+}

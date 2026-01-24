@@ -1,0 +1,220 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "statistics",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "math",
+      "reason": "import",
+      "source_ref_line": 132
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\numbers.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numbers",
+      "reason": "import",
+      "source_ref_line": 133
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\random.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "random",
+      "reason": "import",
+      "source_ref_line": 134
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 135
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\fractions.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "fractions",
+      "reason": "import",
+      "source_ref_line": 137
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\decimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "decimal",
+      "reason": "import",
+      "source_ref_line": 138
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 139
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\bisect.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "bisect",
+      "reason": "import",
+      "source_ref_line": 140
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "math",
+      "reason": "import",
+      "source_ref_line": 141
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "math",
+      "reason": "import",
+      "source_ref_line": 142
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 143
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 144
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 145
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.Counter",
+      "reason": "import fromlist",
+      "source_ref_line": 145
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.namedtuple",
+      "reason": "import fromlist",
+      "source_ref_line": 145
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.defaultdict",
+      "reason": "import fromlist",
+      "source_ref_line": 145
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_statistics",
+      "reason": "import",
+      "source_ref_line": 1499
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      1.0944376999977976,
+      7,
+      {
+        "1": 1294,
+        "2": 822,
+        "3": 269,
+        "4": 247,
+        "5": 126,
+        "6": 91,
+        "7": 42,
+        "8": 45,
+        "9": 97,
+        "10": 34,
+        "11": 22,
+        "12": 19,
+        "13": 9,
+        "14": 14,
+        "15": 18,
+        "16": 17,
+        "17": 5,
+        "18": 1,
+        "19": 9,
+        "20": 13,
+        "22": 12,
+        "23": 2,
+        "24": 13,
+        "25": 11,
+        "26": 1,
+        "27": 7,
+        "28": 5,
+        "29": 4,
+        "30": 2,
+        "31": 9,
+        "32": 8,
+        "33": 12,
+        "35": 12,
+        "36": 1,
+        "37": 7,
+        "38": 1,
+        "39": 1,
+        "40": 6,
+        "41": 5,
+        "42": 1,
+        "43": 2,
+        "45": 1,
+        "46": 1,
+        "49": 1,
+        "50": 1,
+        "51": 2,
+        "84": 5,
+        "85": 1,
+        "86": 1,
+        "111": 6,
+        "113": 1
+      }
+    ]
+  ]
+}

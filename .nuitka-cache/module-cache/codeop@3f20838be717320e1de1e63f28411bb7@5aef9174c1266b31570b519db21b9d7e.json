@@ -1,0 +1,47 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "codeop",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\__future__.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "__future__",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 36
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.01748800000132178,
+      5,
+      {
+        "1": 162,
+        "2": 78,
+        "3": 17,
+        "4": 19,
+        "5": 1,
+        "6": 7,
+        "7": 8,
+        "8": 4,
+        "9": 10,
+        "10": 5,
+        "16": 3,
+        "18": 1,
+        "20": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "ntpath",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 20
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 21
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\genericpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "genericpath",
+      "reason": "import",
+      "source_ref_line": 22
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\genericpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "genericpath",
+      "reason": "import",
+      "source_ref_line": 23
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_winapi",
+      "reason": "import",
+      "source_ref_line": 45
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 170
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 277
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 417
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 429
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 472
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 514
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 557
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 849
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 850
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 851
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 852
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 853
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 854
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 861
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.25320490000012796,
+      7,
+      {
+        "1": 638,
+        "2": 830,
+        "3": 241,
+        "4": 240,
+        "5": 66,
+        "6": 46,
+        "7": 15,
+        "8": 25,
+        "9": 27,
+        "10": 8,
+        "11": 14,
+        "12": 13,
+        "13": 18,
+        "14": 9,
+        "15": 1,
+        "16": 8,
+        "17": 14,
+        "18": 13,
+        "19": 7,
+        "21": 7,
+        "22": 14,
+        "24": 1,
+        "25": 6,
+        "26": 9,
+        "27": 13,
+        "28": 2,
+        "34": 6,
+        "37": 6,
+        "38": 1,
+        "39": 1,
+        "42": 6,
+        "43": 12,
+        "45": 2,
+        "50": 1,
+        "62": 5,
+        "67": 5,
+        "72": 2,
+        "73": 1,
+        "83": 1
+      }
+    ]
+  ]
+}

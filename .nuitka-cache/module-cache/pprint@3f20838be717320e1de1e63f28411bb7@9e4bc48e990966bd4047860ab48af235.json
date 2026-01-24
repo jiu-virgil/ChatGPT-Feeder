@@ -1,0 +1,116 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "pprint",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 37
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\dataclasses.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "dataclasses",
+      "reason": "import",
+      "source_ref_line": 38
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 39
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 41
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 42
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.34959149999849615,
+      8,
+      {
+        "1": 487,
+        "2": 681,
+        "3": 103,
+        "4": 88,
+        "5": 17,
+        "6": 20,
+        "7": 38,
+        "8": 29,
+        "9": 26,
+        "10": 5,
+        "11": 24,
+        "12": 16,
+        "13": 9,
+        "14": 1,
+        "15": 7,
+        "17": 1,
+        "18": 19,
+        "19": 6,
+        "20": 9,
+        "21": 7,
+        "22": 14,
+        "23": 5,
+        "24": 1,
+        "25": 7,
+        "26": 3,
+        "27": 12,
+        "28": 19,
+        "29": 1,
+        "30": 6,
+        "31": 6,
+        "32": 9,
+        "33": 4,
+        "34": 3,
+        "37": 1,
+        "42": 5,
+        "43": 1,
+        "47": 6,
+        "50": 2,
+        "55": 1,
+        "57": 6,
+        "58": 1,
+        "59": 1,
+        "71": 6,
+        "97": 1,
+        "102": 1,
+        "114": 1
+      }
+    ]
+  ]
+}

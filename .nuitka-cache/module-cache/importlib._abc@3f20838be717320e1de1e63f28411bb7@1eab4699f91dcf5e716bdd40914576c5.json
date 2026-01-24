@@ -1,0 +1,48 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "importlib._abc",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\importlib\\_bootstrap.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "importlib._bootstrap",
+      "reason": "import fromlist",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 3
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.010044500002550194,
+      5,
+      {
+        "1": 24,
+        "2": 15,
+        "6": 5,
+        "9": 2,
+        "12": 5
+      }
+    ]
+  ]
+}

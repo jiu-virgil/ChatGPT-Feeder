@@ -1,0 +1,75 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "pyclbr",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ast.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ast",
+      "reason": "import",
+      "source_ref_line": 44
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 45
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\importlib",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib",
+      "reason": "import path parent",
+      "source_ref_line": 46
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\importlib\\util.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "importlib.util",
+      "reason": "import",
+      "source_ref_line": 46
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.05281900000045425,
+      5,
+      {
+        "1": 215,
+        "2": 198,
+        "3": 25,
+        "4": 11,
+        "5": 11,
+        "6": 13,
+        "7": 25,
+        "8": 8,
+        "9": 16,
+        "10": 3,
+        "11": 5,
+        "14": 4,
+        "15": 6,
+        "16": 5,
+        "20": 5,
+        "21": 5,
+        "23": 3,
+        "27": 1,
+        "31": 1,
+        "33": 5,
+        "48": 3,
+        "50": 1,
+        "59": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_pyrepl.commands",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\__future__.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "__future__",
+      "reason": "import",
+      "source_ref_line": 22
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 23
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\signal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "signal",
+      "reason": "import",
+      "source_ref_line": 216
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\signal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "signal",
+      "reason": "import",
+      "source_ref_line": 232
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\_sitebuiltins.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_sitebuiltins",
+      "reason": "import",
+      "source_ref_line": 440
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\_pyrepl",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_pyrepl",
+      "reason": "import path parent",
+      "source_ref_line": 461
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\_pyrepl\\pager.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_pyrepl.pager",
+      "reason": "import",
+      "source_ref_line": 461
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\site.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "site",
+      "reason": "import",
+      "source_ref_line": 462
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.5727864000000409,
+      5,
+      {
+        "1": 1247,
+        "2": 809,
+        "3": 36,
+        "4": 11,
+        "5": 65,
+        "6": 232,
+        "7": 32,
+        "8": 7,
+        "9": 12,
+        "10": 16,
+        "11": 2,
+        "12": 13,
+        "13": 7,
+        "14": 4,
+        "15": 214,
+        "17": 3,
+        "18": 8,
+        "20": 1,
+        "21": 3,
+        "23": 3,
+        "24": 5,
+        "25": 6,
+        "26": 1,
+        "28": 2,
+        "31": 4,
+        "33": 3,
+        "34": 1,
+        "35": 2,
+        "39": 3,
+        "40": 1,
+        "41": 1,
+        "49": 3,
+        "55": 1,
+        "56": 1
+      }
+    ]
+  ]
+}

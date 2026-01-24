@@ -1,0 +1,137 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "urllib.parse",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\collections",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "collections",
+      "reason": "import",
+      "source_ref_line": 34
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "collections.namedtuple",
+      "reason": "import fromlist",
+      "source_ref_line": 34
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 35
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "math",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 37
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 38
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 39
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ipaddress.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ipaddress",
+      "reason": "import",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\unicodedata.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "unicodedata",
+      "reason": "import",
+      "source_ref_line": 426
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.7813337999978103,
+      7,
+      {
+        "1": 1062,
+        "2": 1263,
+        "3": 189,
+        "4": 505,
+        "5": 89,
+        "6": 35,
+        "7": 124,
+        "8": 75,
+        "9": 33,
+        "10": 30,
+        "11": 12,
+        "12": 15,
+        "13": 13,
+        "14": 77,
+        "15": 43,
+        "16": 76,
+        "17": 2,
+        "18": 4,
+        "19": 2,
+        "20": 6,
+        "21": 2,
+        "24": 1,
+        "25": 5,
+        "26": 5,
+        "28": 5,
+        "29": 8,
+        "30": 5,
+        "33": 6,
+        "34": 2,
+        "38": 1,
+        "40": 1,
+        "42": 1,
+        "44": 2,
+        "47": 1,
+        "52": 5,
+        "54": 1,
+        "57": 5,
+        "58": 1,
+        "59": 1,
+        "63": 1
+      }
+    ]
+  ]
+}

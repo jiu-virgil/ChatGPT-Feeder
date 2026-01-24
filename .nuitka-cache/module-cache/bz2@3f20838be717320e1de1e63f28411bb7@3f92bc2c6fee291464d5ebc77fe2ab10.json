@@ -1,0 +1,77 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "bz2",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\_compression.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_compression",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_bz2.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_bz2",
+      "reason": "import",
+      "source_ref_line": 17
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0356218999986595,
+      5,
+      {
+        "1": 100,
+        "2": 147,
+        "3": 8,
+        "4": 28,
+        "5": 10,
+        "6": 18,
+        "8": 9,
+        "10": 1,
+        "11": 2,
+        "13": 4,
+        "14": 5,
+        "15": 3,
+        "16": 11,
+        "17": 5,
+        "18": 1,
+        "19": 2,
+        "20": 2,
+        "21": 1,
+        "27": 1,
+        "35": 4,
+        "36": 1,
+        "49": 2,
+        "51": 1,
+        "58": 1,
+        "65": 1
+      }
+    ]
+  ]
+}

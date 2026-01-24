@@ -1,0 +1,19 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_compat_pickle",
+  "modules_used": [],
+  "timing_infos": [
+    [
+      1,
+      0.008287399999971967,
+      5,
+      {
+        "1": 92,
+        "2": 12,
+        "3": 11,
+        "4": 30
+      }
+    ]
+  ]
+}

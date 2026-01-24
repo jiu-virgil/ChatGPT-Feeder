@@ -1,0 +1,88 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "reprlib",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "builtins",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_thread",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "math",
+      "reason": "import",
+      "source_ref_line": 190
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 190
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.12454299999808427,
+      5,
+      {
+        "1": 117,
+        "2": 127,
+        "3": 24,
+        "4": 20,
+        "5": 14,
+        "6": 2,
+        "7": 11,
+        "8": 2,
+        "9": 1,
+        "10": 5,
+        "11": 3,
+        "13": 9,
+        "14": 1,
+        "15": 5,
+        "17": 3,
+        "18": 1,
+        "19": 5,
+        "20": 4,
+        "21": 8,
+        "23": 3,
+        "24": 3,
+        "25": 3,
+        "26": 2,
+        "28": 3,
+        "31": 3,
+        "34": 1,
+        "38": 1
+      }
+    ]
+  ]
+}

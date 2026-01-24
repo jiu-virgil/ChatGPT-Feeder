@@ -1,0 +1,48 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "email.base64mime",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\base64.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "base64",
+      "reason": "import",
+      "source_ref_line": 37
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "binascii",
+      "reason": "import",
+      "source_ref_line": 38
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.014215700000931975,
+      5,
+      {
+        "1": 15,
+        "2": 35,
+        "3": 7,
+        "4": 8,
+        "6": 2,
+        "10": 3,
+        "11": 3,
+        "12": 1,
+        "13": 2,
+        "14": 2,
+        "15": 1,
+        "20": 3,
+        "22": 1,
+        "23": 1
+      }
+    ]
+  ]
+}

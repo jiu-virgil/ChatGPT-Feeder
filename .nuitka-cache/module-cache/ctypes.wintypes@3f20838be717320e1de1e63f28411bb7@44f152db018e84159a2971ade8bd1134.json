@@ -1,0 +1,35 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "ctypes.wintypes",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ctypes",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ctypes",
+      "reason": "import",
+      "source_ref_line": 2
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.121495599996706,
+      4,
+      {
+        "1": 183,
+        "2": 304,
+        "3": 17,
+        "5": 4,
+        "7": 4,
+        "10": 16,
+        "14": 8,
+        "15": 40,
+        "18": 4,
+        "30": 8
+      }
+    ]
+  ]
+}

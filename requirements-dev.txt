@@ -1,0 +1,25 @@
+# Development and build dependencies
+# Install with: pip install -r requirements-dev.txt
+
+# PyInstaller and related build tools
+altgraph==0.17.4
+packaging==24.1
+pefile==2023.2.7
+pillow==10.4.0
+pyinstaller==6.10.0
+pyinstaller-hooks-contrib==2024.8
+pywin32-ctypes==0.2.3
+
+# Nuitka (alternative faster/smaller build tool)
+# Note: Requires C++ compiler (MSVC or MinGW) on Windows
+# Nuitka will auto-download MinGW if no compiler is found
+nuitka>=2.0.0
+ordered-set>=4.0.0
+
+# Icon download script dependency
+requests>=2.31.0
+
+# Include runtime dependencies for development
+-r requirements.txt
+
+

@@ -1,0 +1,79 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "json.encoder",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_json",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_json",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_json",
+      "reason": "import",
+      "source_ref_line": 14
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.11393210000096587,
+      6,
+      {
+        "1": 151,
+        "2": 429,
+        "3": 33,
+        "4": 6,
+        "5": 7,
+        "6": 13,
+        "7": 1,
+        "9": 6,
+        "10": 1,
+        "11": 1,
+        "12": 7,
+        "13": 4,
+        "14": 4,
+        "15": 7,
+        "16": 1,
+        "21": 1,
+        "22": 1,
+        "33": 4,
+        "36": 1,
+        "37": 1,
+        "40": 6,
+        "49": 4,
+        "50": 2,
+        "56": 6,
+        "72": 10,
+        "73": 1,
+        "74": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "re._constants",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sre",
+      "reason": "import",
+      "source_ref_line": 18
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.020954600000550272,
+      6,
+      {
+        "1": 130,
+        "2": 83,
+        "3": 10,
+        "4": 12,
+        "5": 11,
+        "6": 3,
+        "8": 12,
+        "14": 8,
+        "15": 4,
+        "23": 1,
+        "24": 3,
+        "25": 2
+      }
+    ]
+  ]
+}

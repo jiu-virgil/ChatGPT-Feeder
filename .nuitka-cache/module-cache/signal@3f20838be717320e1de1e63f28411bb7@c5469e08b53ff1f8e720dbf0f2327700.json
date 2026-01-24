@@ -1,0 +1,52 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "signal",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_signal",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_signal",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 3
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.016966399998636916,
+      5,
+      {
+        "1": 120,
+        "2": 51,
+        "3": 14,
+        "4": 5,
+        "5": 22,
+        "6": 5,
+        "7": 15,
+        "10": 2,
+        "11": 5
+      }
+    ]
+  ]
+}

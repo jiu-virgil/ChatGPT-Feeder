@@ -1,0 +1,61 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "quopri",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "binascii",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 106
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 158
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.07244709999940824,
+      7,
+      {
+        "1": 170,
+        "2": 311,
+        "3": 29,
+        "4": 60,
+        "7": 2,
+        "11": 17,
+        "12": 7,
+        "13": 2,
+        "15": 5,
+        "18": 1,
+        "20": 3,
+        "22": 2,
+        "44": 5,
+        "45": 1,
+        "46": 1,
+        "112": 4,
+        "113": 1,
+        "122": 2
+      }
+    ]
+  ]
+}

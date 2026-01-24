@@ -1,0 +1,286 @@
+/* Spoon App - Native Windows Style */
+
+/* Use native Windows styling - minimal customizations */
+QMainWindow {
+    background-color: palette(window);
+}
+
+QWidget {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 9pt;
+}
+
+/* Toolbar - vertical-friendly layout */
+QWidget#toolbar {
+    background-color: palette(button);
+    border-bottom: 1px solid palette(mid);
+    padding: 6px;
+}
+
+/* Buttons - native Windows style */
+QPushButton {
+    background-color: palette(button);
+    color: palette(button-text);
+    border: 1px solid palette(mid);
+    border-radius: 3px;
+    padding: 4px 12px;
+    min-height: 22px;
+}
+
+QPushButton:hover {
+    background-color: palette(light);
+}
+
+QPushButton:pressed {
+    background-color: palette(dark);
+    border-color: palette(shadow);
+}
+
+QPushButton:disabled {
+    background-color: palette(button);
+    color: palette(mid);
+    border-color: palette(mid);
+}
+
+/* Submit Button - slightly emphasized */
+QPushButton#submitButton {
+    background-color: palette(highlight);
+    color: palette(highlighted-text);
+    font-weight: 600;
+    padding: 8px 16px;
+    min-height: 32px;
+}
+
+QPushButton#submitButton:hover {
+    background-color: palette(highlight);
+    opacity: 0.9;
+}
+
+QPushButton#submitButton:pressed {
+    background-color: palette(highlight);
+    opacity: 0.8;
+}
+
+/* Line Edit - native style */
+QLineEdit {
+    background-color: palette(base);
+    border: 1px solid palette(mid);
+    border-radius: 2px;
+    padding: 3px 6px;
+    selection-background-color: palette(highlight);
+    selection-color: palette(highlighted-text);
+}
+
+QLineEdit:focus {
+    border: 1px solid palette(highlight);
+}
+
+QLineEdit:disabled {
+    background-color: palette(button);
+    color: rgba(255, 255, 255, 0.9);
+    border-color: palette(mid);
+}
+
+/* ComboBox - native style, matching button heights */
+QComboBox {
+    background-color: palette(base);
+    border: 1px solid palette(mid);
+    border-radius: 2px;
+    padding: 0px 6px;
+    min-height: 32px;
+    max-height: 32px;
+    selection-background-color: palette(highlight);
+    selection-color: palette(highlighted-text);
+}
+
+QComboBox:focus {
+    border: 1px solid palette(highlight);
+}
+
+QComboBox::drop-down {
+    border: none;
+    border-left: 1px solid palette(mid);
+    width: 20px;
+    background-color: transparent;
+    padding: 0px 2px;
+}
+
+QComboBox::down-arrow {
+    /* Use Qt's native arrow rendering - remove explicit image to let Qt handle it */
+    width: 12px;
+    height: 12px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: palette(base);
+    border: 1px solid palette(mid);
+    selection-background-color: palette(highlight);
+    selection-color: palette(highlighted-text);
+}
+
+/* ComboBox lineEdit (editable part) - padding for text */
+QComboBox QLineEdit {
+    padding: 0px 6px;
+    background-color: transparent;
+    border: none;
+}
+
+/* Tree Widget - native style with visible branches */
+QTreeWidget {
+    background-color: palette(base);
+    border: none;
+    alternate-background-color: palette(alternate-base);
+    selection-background-color: palette(highlight);
+    selection-color: palette(highlighted-text);
+    outline: none;
+}
+
+QTreeWidget::item {
+    padding: 1px 2px;
+    border: none;
+    color: palette(window-text);
+    min-height: 18px;
+    font-size: 11pt;
+    line-height: 1.2;
+}
+
+QTreeWidget::item:hover {
+    background-color: palette(light);
+}
+
+QTreeWidget::item:selected {
+    background-color: palette(highlight);
+    color: palette(highlighted-text);
+}
+
+/* Tree branch - chevrons for expand/collapse */
+QTreeWidget::branch {
+    background-color: palette(base);
+    width: 16px;
+    height: 18px;
+    border: none;
+}
+
+/* Collapsed state - right-pointing chevron (simple triangle, base64 encoded) */
+QTreeWidget::branch:has-children:!has-siblings:closed,
+QTreeWidget::branch:closed:has-children:has-siblings {
+    image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHZpZXdCb3g9IjAgMCA4IDgiPjxwb2x5Z29uIHBvaW50cz0iMiwyIDYsNCAyLDYiIGZpbGw9IiM2NjYiLz48L3N2Zz4=);
+    width: 8px;
+    height: 8px;
+}
+
+/* Expanded state - down-pointing chevron (simple triangle, base64 encoded) */
+QTreeWidget::branch:open:has-children:!has-siblings,
+QTreeWidget::branch:open:has-children:has-siblings {
+    image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiIHZpZXdCb3g9IjAgMCA4IDgiPjxwb2x5Z29uIHBvaW50cz0iMiwyIDYsMiA0LDYiIGZpbGw9IiM2NjYiLz48L3N2Zz4=);
+    width: 8px;
+    height: 8px;
+}
+
+/* No children - no chevron */
+QTreeWidget::branch:!has-children {
+    image: none;
+}
+
+/* Checkbox - native Windows style, always visible */
+QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 13px;
+    height: 13px;
+    border: 1px solid palette(mid);
+    border-radius: 2px;
+    background-color: palette(base);
+}
+
+QCheckBox::indicator:hover {
+    border-color: palette(highlight);
+}
+
+QCheckBox::indicator:checked {
+    background-color: palette(highlight);
+    border-color: palette(highlight);
+    image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAxMyAxMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjUgMy41TDUuNSAxMC41TDIuNSA3LjUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=);
+}
+
+QCheckBox::indicator:indeterminate {
+    background-color: palette(highlight);
+    border-color: palette(highlight);
+}
+
+/* Ensure checkbox highlight stays visible when window unfocused */
+QCheckBox::indicator:checked {
+    background-color: palette(highlight);
+    border-color: palette(highlight);
+}
+
+/* Force highlight color even when inactive/unfocused */
+QTreeWidget::item:selected QCheckBox::indicator:checked {
+    background-color: palette(highlight);
+    border-color: palette(highlight);
+}
+
+/* Label */
+QLabel {
+    color: palette(window-text);
+}
+
+/* Status Bar - native style */
+QStatusBar {
+    background-color: palette(button);
+    border-top: 1px solid palette(mid);
+    color: palette(window-text);
+}
+
+QStatusBar::item {
+    border: none;
+}
+
+/* Scrollbar - native style */
+QScrollBar:vertical {
+    background-color: palette(button);
+    width: 12px;
+    border: none;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background-color: palette(mid);
+    min-height: 20px;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: palette(dark);
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+QScrollBar:horizontal {
+    background-color: palette(button);
+    height: 12px;
+    border: none;
+    margin: 0;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: palette(mid);
+    min-width: 20px;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: palette(dark);
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    width: 0;
+}

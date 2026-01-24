@@ -1,0 +1,63 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "copy",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 52
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\weakref.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "weakref",
+      "reason": "import",
+      "source_ref_line": 53
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\copyreg.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "copyreg",
+      "reason": "import",
+      "source_ref_line": 54
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.05840309999985038,
+      6,
+      {
+        "1": 243,
+        "2": 238,
+        "3": 50,
+        "4": 8,
+        "5": 43,
+        "6": 11,
+        "7": 18,
+        "8": 10,
+        "9": 3,
+        "10": 1,
+        "11": 12,
+        "14": 4,
+        "15": 2,
+        "30": 7,
+        "31": 1,
+        "34": 1,
+        "39": 6,
+        "45": 1,
+        "48": 1,
+        "50": 1
+      }
+    ]
+  ]
+}

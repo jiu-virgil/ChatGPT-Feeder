@@ -1,0 +1,31 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.utf_32_be",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 4
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.013087700001051417,
+      4,
+      {
+        "1": 72,
+        "2": 60,
+        "4": 2,
+        "6": 6,
+        "9": 12,
+        "16": 16
+      }
+    ]
+  ]
+}

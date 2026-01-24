@@ -1,0 +1,103 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "calendar",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\datetime.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "datetime",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\locale.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "locale",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\warnings.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "warnings",
+      "reason": "import",
+      "source_ref_line": 48
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.5178140999996685,
+      9,
+      {
+        "1": 2202,
+        "2": 613,
+        "3": 220,
+        "4": 143,
+        "5": 170,
+        "6": 135,
+        "7": 105,
+        "8": 84,
+        "9": 76,
+        "10": 10,
+        "11": 20,
+        "12": 42,
+        "13": 19,
+        "14": 32,
+        "15": 41,
+        "16": 22,
+        "17": 34,
+        "18": 10,
+        "19": 8,
+        "20": 3,
+        "21": 9,
+        "22": 9,
+        "23": 8,
+        "24": 15,
+        "25": 9,
+        "26": 2,
+        "27": 8,
+        "30": 1,
+        "32": 1,
+        "37": 1,
+        "46": 7,
+        "50": 1,
+        "51": 1
+      }
+    ]
+  ]
+}

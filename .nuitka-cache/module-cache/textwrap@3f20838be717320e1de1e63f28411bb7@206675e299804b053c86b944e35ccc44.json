@@ -1,0 +1,49 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "textwrap",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.11715209999965737,
+      5,
+      {
+        "1": 182,
+        "2": 248,
+        "3": 25,
+        "4": 9,
+        "5": 15,
+        "6": 5,
+        "7": 5,
+        "8": 15,
+        "9": 3,
+        "10": 6,
+        "11": 2,
+        "12": 2,
+        "15": 3,
+        "16": 5,
+        "17": 2,
+        "21": 3,
+        "25": 6,
+        "26": 1,
+        "27": 3,
+        "29": 1,
+        "61": 1,
+        "165": 3,
+        "193": 1,
+        "203": 1
+      }
+    ]
+  ]
+}

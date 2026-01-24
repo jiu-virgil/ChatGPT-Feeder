@@ -1,0 +1,56 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.quopri_codec",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\quopri.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "quopri",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.020510899998043897,
+      4,
+      {
+        "1": 101,
+        "2": 68,
+        "3": 4,
+        "5": 4,
+        "6": 8,
+        "7": 8,
+        "8": 4,
+        "9": 4,
+        "10": 2,
+        "12": 2,
+        "15": 4,
+        "16": 8,
+        "17": 8
+      }
+    ]
+  ]
+}

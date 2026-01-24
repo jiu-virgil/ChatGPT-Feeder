@@ -1,0 +1,104 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 31
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 32
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\encodings",
+      "finding": "absolute",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "encodings",
+      "reason": "import",
+      "source_ref_line": 33
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\encodings\\aliases.py",
+      "finding": "relative",
+      "level": 1,
+      "module_kind": "py",
+      "module_name": "encodings.aliases",
+      "reason": "import fromlist",
+      "source_ref_line": 33
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_winapi",
+      "reason": "import",
+      "source_ref_line": 165
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\encodings",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "encodings",
+      "reason": "import path parent",
+      "source_ref_line": 168
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\encodings\\mbcs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "encodings.mbcs",
+      "reason": "import",
+      "source_ref_line": 168
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.03216629999951692,
+      6,
+      {
+        "1": 96,
+        "2": 230,
+        "3": 21,
+        "4": 2,
+        "5": 12,
+        "6": 1,
+        "7": 10,
+        "10": 7,
+        "11": 1,
+        "13": 4,
+        "14": 5,
+        "15": 1,
+        "16": 2,
+        "88": 4,
+        "98": 1,
+        "108": 1
+      }
+    ]
+  ]
+}

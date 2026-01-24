@@ -1,0 +1,47 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "graphlib",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 1
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.049261699998169206,
+      7,
+      {
+        "1": 340,
+        "2": 111,
+        "3": 54,
+        "4": 13,
+        "5": 27,
+        "6": 17,
+        "7": 6,
+        "8": 15,
+        "9": 8,
+        "10": 7,
+        "11": 3,
+        "12": 13,
+        "14": 6,
+        "15": 10,
+        "20": 1,
+        "26": 5,
+        "29": 1,
+        "32": 1,
+        "40": 4,
+        "41": 1,
+        "45": 1,
+        "47": 1
+      }
+    ]
+  ]
+}

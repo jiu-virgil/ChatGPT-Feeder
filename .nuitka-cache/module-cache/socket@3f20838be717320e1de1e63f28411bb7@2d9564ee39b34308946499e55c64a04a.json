@@ -1,0 +1,138 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "socket",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_socket.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_socket",
+      "reason": "import",
+      "source_ref_line": 52
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_socket.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_socket",
+      "reason": "import",
+      "source_ref_line": 53
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 55
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 55
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 55
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\selectors.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "selectors",
+      "reason": "import",
+      "source_ref_line": 55
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\enum.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "enum",
+      "reason": "import",
+      "source_ref_line": 56
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 59
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "array",
+      "reason": "import",
+      "source_ref_line": 552
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "array",
+      "reason": "import",
+      "source_ref_line": 564
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.1191246999987925,
+      5,
+      {
+        "1": 353,
+        "2": 578,
+        "3": 99,
+        "4": 114,
+        "5": 52,
+        "6": 51,
+        "7": 22,
+        "8": 20,
+        "9": 19,
+        "10": 26,
+        "11": 10,
+        "12": 8,
+        "13": 15,
+        "14": 4,
+        "15": 11,
+        "16": 6,
+        "17": 13,
+        "18": 1,
+        "21": 6,
+        "22": 5,
+        "24": 10,
+        "25": 10,
+        "26": 2,
+        "27": 5,
+        "31": 4,
+        "36": 4,
+        "38": 1,
+        "39": 4,
+        "40": 1,
+        "42": 4,
+        "47": 1,
+        "48": 1
+      }
+    ]
+  ]
+}

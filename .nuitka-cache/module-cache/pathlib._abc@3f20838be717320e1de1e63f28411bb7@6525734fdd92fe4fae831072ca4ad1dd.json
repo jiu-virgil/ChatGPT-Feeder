@@ -1,0 +1,91 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "pathlib._abc",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\glob.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "glob",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "errno",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 17
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.1897026000006008,
+      6,
+      {
+        "1": 665,
+        "2": 583,
+        "3": 184,
+        "4": 157,
+        "5": 95,
+        "6": 78,
+        "7": 32,
+        "8": 26,
+        "9": 8,
+        "10": 14,
+        "11": 2,
+        "12": 18,
+        "13": 8,
+        "14": 15,
+        "15": 14,
+        "16": 2,
+        "17": 6,
+        "18": 5,
+        "19": 2,
+        "20": 7,
+        "21": 8,
+        "22": 5,
+        "23": 2,
+        "24": 2,
+        "26": 8,
+        "27": 5,
+        "29": 1,
+        "33": 1,
+        "34": 4,
+        "36": 1,
+        "38": 5,
+        "40": 1,
+        "42": 1,
+        "44": 1,
+        "59": 4,
+        "60": 2,
+        "61": 3,
+        "65": 3,
+        "75": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.charmap",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 13
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.019369999998161802,
+      4,
+      {
+        "1": 101,
+        "2": 68,
+        "5": 12,
+        "7": 20,
+        "13": 4,
+        "15": 4,
+        "16": 8,
+        "17": 8
+      }
+    ]
+  ]
+}

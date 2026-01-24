@@ -1,0 +1,14 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_opcode_metadata",
+  "modules_used": [],
+  "timing_infos": [
+    [
+      1,
+      0.000454699998954311,
+      3,
+      {}
+    ]
+  ]
+}

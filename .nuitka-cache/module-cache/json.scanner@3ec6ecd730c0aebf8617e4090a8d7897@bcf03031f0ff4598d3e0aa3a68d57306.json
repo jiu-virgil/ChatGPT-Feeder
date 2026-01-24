@@ -1,0 +1,44 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "json.scanner",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_json",
+      "reason": "import",
+      "source_ref_line": 5
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.025526699999318225,
+      4,
+      {
+        "1": 40,
+        "2": 55,
+        "3": 5,
+        "4": 15,
+        "6": 1,
+        "10": 4,
+        "12": 4,
+        "81": 2,
+        "82": 1,
+        "83": 1
+      }
+    ]
+  ]
+}

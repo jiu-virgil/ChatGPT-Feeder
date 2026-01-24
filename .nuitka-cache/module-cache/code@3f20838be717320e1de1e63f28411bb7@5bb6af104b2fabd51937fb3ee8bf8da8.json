@@ -1,0 +1,85 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "code",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "builtins",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\traceback.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "traceback",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codeop.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codeop",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "readline",
+      "reason": "import",
+      "source_ref_line": 369
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.05170220000218251,
+      7,
+      {
+        "1": 319,
+        "2": 284,
+        "3": 45,
+        "4": 54,
+        "5": 9,
+        "6": 29,
+        "7": 7,
+        "8": 7,
+        "9": 3,
+        "10": 1,
+        "11": 13,
+        "12": 3,
+        "14": 6,
+        "15": 7,
+        "16": 5,
+        "21": 2,
+        "23": 5,
+        "25": 1,
+        "26": 1,
+        "29": 1,
+        "39": 4,
+        "41": 1,
+        "42": 1,
+        "57": 1
+      }
+    ]
+  ]
+}

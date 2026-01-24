@@ -1,0 +1,93 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "html.parser",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\_markupbase.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_markupbase",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\html",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "html",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 1,
+      "module_kind": null,
+      "module_name": "html.unescape",
+      "reason": "import fromlist",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\html",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "html",
+      "reason": "import path parent",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\html\\entities.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "html.entities",
+      "reason": "import",
+      "source_ref_line": 15
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0817691999982344,
+      5,
+      {
+        "1": 111,
+        "2": 314,
+        "3": 10,
+        "4": 14,
+        "5": 14,
+        "6": 15,
+        "8": 2,
+        "9": 3,
+        "10": 5,
+        "11": 4,
+        "12": 10,
+        "14": 5,
+        "16": 10,
+        "21": 4,
+        "23": 1,
+        "35": 7,
+        "39": 10,
+        "65": 3,
+        "73": 1,
+        "76": 1,
+        "308": 3,
+        "314": 1,
+        "320": 1
+      }
+    ]
+  ]
+}

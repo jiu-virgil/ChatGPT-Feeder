@@ -1,0 +1,46 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.bz2_codec",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\bz2.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "bz2",
+      "reason": "import",
+      "source_ref_line": 11
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.021730500000558095,
+      4,
+      {
+        "1": 109,
+        "2": 75,
+        "3": 5,
+        "4": 8,
+        "5": 4,
+        "6": 4,
+        "7": 8,
+        "8": 12,
+        "13": 4,
+        "15": 4,
+        "16": 8,
+        "17": 8
+      }
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "numbers",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "abc",
+      "reason": "import",
+      "source_ref_line": 33
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.15148229999977048,
+      4,
+      {
+        "1": 114,
+        "2": 362,
+        "3": 10,
+        "5": 4,
+        "6": 4,
+        "8": 2,
+        "12": 4,
+        "15": 16,
+        "22": 2,
+        "28": 2,
+        "63": 4,
+        "69": 4,
+        "80": 2,
+        "86": 2
+      }
+    ]
+  ]
+}

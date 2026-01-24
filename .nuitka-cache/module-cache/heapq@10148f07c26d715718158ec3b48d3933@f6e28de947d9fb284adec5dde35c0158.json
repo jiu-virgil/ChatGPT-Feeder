@@ -1,0 +1,71 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "heapq",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_heapq",
+      "reason": "import",
+      "source_ref_line": 583
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_heapq",
+      "reason": "import",
+      "source_ref_line": 587
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_heapq",
+      "reason": "import",
+      "source_ref_line": 591
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_heapq",
+      "reason": "import",
+      "source_ref_line": 595
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.3613714999992226,
+      5,
+      {
+        "1": 365,
+        "2": 237,
+        "3": 145,
+        "4": 95,
+        "5": 30,
+        "6": 39,
+        "7": 22,
+        "8": 11,
+        "9": 10,
+        "11": 15,
+        "13": 10,
+        "16": 6,
+        "19": 4,
+        "33": 6,
+        "35": 4,
+        "46": 4,
+        "48": 9,
+        "49": 1,
+        "51": 1
+      }
+    ]
+  ]
+}

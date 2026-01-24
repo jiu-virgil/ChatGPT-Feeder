@@ -1,0 +1,135 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "fractions",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\decimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "decimal",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "math",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\numbers.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "numbers",
+      "reason": "import",
+      "source_ref_line": 9
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\operator.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "operator",
+      "reason": "import",
+      "source_ref_line": 10
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\decimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "decimal",
+      "reason": "import",
+      "source_ref_line": 325
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.26322269999946,
+      6,
+      {
+        "1": 233,
+        "2": 558,
+        "3": 205,
+        "4": 125,
+        "5": 40,
+        "6": 52,
+        "7": 17,
+        "8": 68,
+        "9": 5,
+        "10": 8,
+        "12": 11,
+        "14": 2,
+        "15": 3,
+        "16": 14,
+        "17": 1,
+        "18": 8,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 2,
+        "23": 1,
+        "24": 12,
+        "25": 1,
+        "26": 7,
+        "28": 2,
+        "29": 3,
+        "32": 1,
+        "33": 2,
+        "34": 1,
+        "35": 12,
+        "39": 4,
+        "47": 5,
+        "48": 1,
+        "51": 4,
+        "53": 2,
+        "54": 5,
+        "55": 1,
+        "63": 1,
+        "65": 1,
+        "72": 3,
+        "75": 3,
+        "77": 4,
+        "96": 1,
+        "108": 4,
+        "116": 1,
+        "124": 1,
+        "131": 1
+      }
+    ]
+  ]
+}

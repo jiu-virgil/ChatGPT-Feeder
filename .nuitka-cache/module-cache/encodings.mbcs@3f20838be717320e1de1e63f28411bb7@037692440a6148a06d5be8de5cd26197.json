@@ -1,0 +1,42 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.mbcs",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 12
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 14
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.011433399999077665,
+      4,
+      {
+        "1": 72,
+        "2": 64,
+        "3": 2,
+        "5": 2,
+        "6": 4,
+        "8": 12,
+        "15": 4,
+        "16": 12
+      }
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.iso8859_8",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 5
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0196321999974316,
+      4,
+      {
+        "1": 93,
+        "2": 60,
+        "5": 12,
+        "6": 8,
+        "7": 8,
+        "15": 4,
+        "16": 8,
+        "17": 8
+      }
+    ]
+  ]
+}

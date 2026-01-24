@@ -1,0 +1,50 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.hz",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_codecs_cn",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 7
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_multibytecodec",
+      "reason": "import",
+      "source_ref_line": 8
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.013774999999441206,
+      3,
+      {
+        "1": 65,
+        "2": 63,
+        "8": 12,
+        "13": 3,
+        "16": 3,
+        "18": 6,
+        "19": 6
+      }
+    ]
+  ]
+}

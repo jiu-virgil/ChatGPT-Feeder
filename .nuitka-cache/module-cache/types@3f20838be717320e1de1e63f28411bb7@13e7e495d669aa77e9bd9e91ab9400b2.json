@@ -1,0 +1,75 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "types",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\functools.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "functools",
+      "reason": "import",
+      "source_ref_line": 306
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\_collections_abc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_collections_abc",
+      "reason": "import",
+      "source_ref_line": 307
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_socket.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_socket",
+      "reason": "import",
+      "source_ref_line": 336
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.07823060000009718,
+      6,
+      {
+        "1": 257,
+        "2": 126,
+        "3": 35,
+        "4": 40,
+        "5": 16,
+        "6": 10,
+        "7": 13,
+        "8": 10,
+        "9": 7,
+        "10": 5,
+        "11": 10,
+        "12": 3,
+        "13": 2,
+        "14": 3,
+        "19": 5,
+        "21": 2,
+        "22": 7,
+        "23": 2,
+        "25": 1,
+        "29": 1,
+        "30": 1,
+        "31": 1,
+        "37": 1
+      }
+    ]
+  ]
+}

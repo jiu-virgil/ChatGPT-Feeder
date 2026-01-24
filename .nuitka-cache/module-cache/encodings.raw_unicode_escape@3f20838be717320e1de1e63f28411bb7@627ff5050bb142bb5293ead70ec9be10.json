@@ -1,0 +1,34 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.raw_unicode_escape",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 9
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.016309099999489263,
+      4,
+      {
+        "1": 91,
+        "2": 68,
+        "4": 4,
+        "5": 4,
+        "6": 14,
+        "13": 4,
+        "15": 4,
+        "16": 8,
+        "17": 8
+      }
+    ]
+  ]
+}

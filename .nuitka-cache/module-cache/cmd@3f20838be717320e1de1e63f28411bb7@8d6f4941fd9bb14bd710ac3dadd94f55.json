@@ -1,0 +1,99 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "cmd",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\inspect.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "inspect",
+      "reason": "import",
+      "source_ref_line": 45
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\string.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "string",
+      "reason": "import",
+      "source_ref_line": 45
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 45
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "readline",
+      "reason": "import",
+      "source_ref_line": 108
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "readline",
+      "reason": "import",
+      "source_ref_line": 152
+    },
+    {
+      "filename": null,
+      "finding": "not-found",
+      "level": 0,
+      "module_kind": null,
+      "module_name": "readline",
+      "reason": "import",
+      "source_ref_line": 265
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.09324229999765521,
+      7,
+      {
+        "1": 357,
+        "2": 360,
+        "3": 62,
+        "4": 49,
+        "5": 30,
+        "6": 14,
+        "7": 1,
+        "8": 15,
+        "9": 17,
+        "10": 16,
+        "11": 11,
+        "12": 17,
+        "13": 5,
+        "14": 3,
+        "15": 3,
+        "17": 14,
+        "22": 6,
+        "23": 2,
+        "24": 10,
+        "25": 12,
+        "26": 3,
+        "29": 1,
+        "30": 7,
+        "31": 1,
+        "37": 2,
+        "41": 1,
+        "42": 2,
+        "51": 5,
+        "53": 2
+      }
+    ]
+  ]
+}

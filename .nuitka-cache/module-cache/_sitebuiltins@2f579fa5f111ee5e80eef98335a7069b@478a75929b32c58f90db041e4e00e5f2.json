@@ -1,0 +1,67 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_sitebuiltins",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 11
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ntpath.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ntpath",
+      "reason": "import",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\pydoc.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "pydoc",
+      "reason": "import",
+      "source_ref_line": 102
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.04127339999831747,
+      8,
+      {
+        "1": 262,
+        "2": 167,
+        "3": 18,
+        "4": 19,
+        "5": 7,
+        "6": 7,
+        "7": 14,
+        "8": 19,
+        "9": 7,
+        "10": 1,
+        "11": 9,
+        "13": 2,
+        "14": 29,
+        "15": 9,
+        "16": 2
+      }
+    ]
+  ]
+}

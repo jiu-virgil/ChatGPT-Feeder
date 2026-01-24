@@ -1,0 +1,31 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "bisect",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_bisect",
+      "reason": "import",
+      "source_ref_line": 112
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.009241599997039884,
+      5,
+      {
+        "1": 40,
+        "2": 60,
+        "3": 5,
+        "9": 10,
+        "32": 6,
+        "36": 4
+      }
+    ]
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "ftplib",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 39
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\socket.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socket",
+      "reason": "import",
+      "source_ref_line": 40
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\socket.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "socket",
+      "reason": "import",
+      "source_ref_line": 41
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\ssl.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "ssl",
+      "reason": "import",
+      "source_ref_line": 671
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 801
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 820
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.24215620000177296,
+      7,
+      {
+        "1": 726,
+        "2": 895,
+        "3": 71,
+        "4": 145,
+        "5": 83,
+        "6": 48,
+        "7": 36,
+        "8": 61,
+        "9": 30,
+        "10": 17,
+        "11": 18,
+        "12": 25,
+        "13": 5,
+        "14": 23,
+        "15": 38,
+        "16": 24,
+        "17": 10,
+        "18": 10,
+        "19": 4,
+        "20": 12,
+        "21": 8,
+        "22": 4,
+        "24": 18,
+        "25": 5,
+        "27": 12,
+        "28": 2,
+        "29": 4,
+        "30": 5,
+        "33": 2,
+        "35": 1,
+        "37": 1,
+        "38": 5,
+        "39": 6,
+        "41": 2,
+        "42": 3,
+        "43": 5,
+        "45": 1,
+        "61": 1
+      }
+    ]
+  ]
+}

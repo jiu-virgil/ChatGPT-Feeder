@@ -1,0 +1,74 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_aix_support",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\sysconfig",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "sysconfig",
+      "reason": "import",
+      "source_ref_line": 4
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 13
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\contextlib.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "contextlib",
+      "reason": "import",
+      "source_ref_line": 14
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\subprocess.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "subprocess",
+      "reason": "import",
+      "source_ref_line": 53
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.017276099999435246,
+      6,
+      {
+        "1": 72,
+        "2": 45,
+        "3": 16,
+        "4": 19,
+        "5": 11,
+        "6": 19,
+        "7": 5,
+        "8": 14,
+        "9": 5,
+        "10": 1,
+        "12": 6,
+        "14": 4,
+        "16": 2
+      }
+    ]
+  ]
+}

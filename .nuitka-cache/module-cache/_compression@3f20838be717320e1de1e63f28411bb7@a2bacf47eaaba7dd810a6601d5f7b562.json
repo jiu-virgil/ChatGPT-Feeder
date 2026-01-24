@@ -1,0 +1,55 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_compression",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 4
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.025809999999182764,
+      5,
+      {
+        "1": 132,
+        "2": 108,
+        "3": 10,
+        "4": 26,
+        "5": 14,
+        "6": 6,
+        "7": 10,
+        "8": 8,
+        "9": 3,
+        "10": 5,
+        "11": 2,
+        "12": 1,
+        "14": 1,
+        "15": 10,
+        "17": 4,
+        "18": 1,
+        "46": 3,
+        "49": 1,
+        "56": 3,
+        "57": 2,
+        "59": 1
+      }
+    ]
+  ]
+}

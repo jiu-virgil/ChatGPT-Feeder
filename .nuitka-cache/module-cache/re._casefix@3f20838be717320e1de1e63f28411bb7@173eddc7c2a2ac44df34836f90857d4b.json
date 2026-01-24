@@ -1,0 +1,14 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "re._casefix",
+  "modules_used": [],
+  "timing_infos": [
+    [
+      1,
+      0.0004172000008111354,
+      3,
+      {}
+    ]
+  ]
+}

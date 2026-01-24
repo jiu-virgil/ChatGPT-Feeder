@@ -1,0 +1,21 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "importlib.resources._itertools",
+  "modules_used": [],
+  "timing_infos": [
+    [
+      1,
+      0.005524299998796778,
+      4,
+      {
+        "1": 8,
+        "2": 11,
+        "3": 1,
+        "7": 2,
+        "10": 1,
+        "11": 1
+      }
+    ]
+  ]
+}

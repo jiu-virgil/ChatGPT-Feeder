@@ -1,0 +1,49 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_weakrefset",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_weakref",
+      "reason": "import",
+      "source_ref_line": 5
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 6
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.04834040000059758,
+      7,
+      {
+        "1": 524,
+        "2": 199,
+        "3": 6,
+        "4": 58,
+        "5": 61,
+        "6": 21,
+        "7": 10,
+        "8": 37,
+        "9": 9,
+        "10": 4,
+        "12": 2,
+        "13": 1,
+        "14": 1,
+        "16": 1,
+        "46": 1
+      }
+    ]
+  ]
+}

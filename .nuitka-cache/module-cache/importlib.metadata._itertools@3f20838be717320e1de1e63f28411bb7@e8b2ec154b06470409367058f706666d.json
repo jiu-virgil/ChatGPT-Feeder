@@ -1,0 +1,36 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "importlib.metadata._itertools",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "itertools",
+      "reason": "import",
+      "source_ref_line": 1
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.017203999999765074,
+      5,
+      {
+        "1": 28,
+        "2": 21,
+        "3": 2,
+        "4": 3,
+        "5": 5,
+        "6": 1,
+        "7": 1,
+        "8": 3,
+        "9": 6,
+        "11": 1,
+        "13": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "genericpath",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 6
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\stat.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "stat",
+      "reason": "import",
+      "source_ref_line": 7
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.027769799999077804,
+      6,
+      {
+        "1": 163,
+        "2": 101,
+        "3": 22,
+        "4": 12,
+        "5": 14,
+        "6": 20,
+        "7": 13,
+        "9": 4,
+        "10": 4,
+        "11": 1,
+        "12": 4,
+        "16": 1,
+        "17": 1,
+        "22": 1,
+        "25": 5,
+        "35": 2
+      }
+    ]
+  ]
+}

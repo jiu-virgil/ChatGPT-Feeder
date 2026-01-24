@@ -1,0 +1,57 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "getopt",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 36
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\gettext.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "gettext",
+      "reason": "import",
+      "source_ref_line": 38
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.046387499998672865,
+      6,
+      {
+        "1": 157,
+        "2": 175,
+        "3": 75,
+        "4": 7,
+        "5": 17,
+        "6": 12,
+        "7": 12,
+        "8": 2,
+        "9": 10,
+        "11": 24,
+        "13": 1,
+        "14": 5,
+        "15": 2,
+        "24": 5,
+        "25": 1,
+        "26": 10,
+        "29": 2,
+        "35": 4,
+        "36": 1,
+        "37": 1,
+        "42": 4,
+        "47": 1,
+        "49": 1
+      }
+    ]
+  ]
+}

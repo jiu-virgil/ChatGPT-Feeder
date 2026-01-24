@@ -1,0 +1,130 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "hashlib",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha1",
+      "reason": "import",
+      "source_ref_line": 89
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_md5",
+      "reason": "import",
+      "source_ref_line": 92
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha2",
+      "reason": "import",
+      "source_ref_line": 95
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha2",
+      "reason": "import",
+      "source_ref_line": 99
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_blake2",
+      "reason": "import",
+      "source_ref_line": 103
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha3",
+      "reason": "import",
+      "source_ref_line": 107
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_sha3",
+      "reason": "import",
+      "source_ref_line": 113
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_hashlib.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_hashlib",
+      "reason": "import",
+      "source_ref_line": 170
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_hashlib.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_hashlib",
+      "reason": "import",
+      "source_ref_line": 182
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_hashlib.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_hashlib",
+      "reason": "import",
+      "source_ref_line": 190
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\logging",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "logging",
+      "reason": "import",
+      "source_ref_line": 249
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.4102944000005664,
+      5,
+      {
+        "1": 46,
+        "2": 93,
+        "3": 48,
+        "4": 23,
+        "5": 12,
+        "6": 10,
+        "7": 6,
+        "8": 3,
+        "9": 1,
+        "10": 1,
+        "32": 2,
+        "35": 1,
+        "36": 5,
+        "42": 1,
+        "44": 1
+      }
+    ]
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "encodings.hex_codec",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\codecs.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "codecs",
+      "reason": "import",
+      "source_ref_line": 8
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "binascii",
+      "reason": "import",
+      "source_ref_line": 9
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.02696749999813619,
+      4,
+      {
+        "1": 97,
+        "2": 68,
+        "3": 4,
+        "4": 4,
+        "6": 12,
+        "7": 8,
+        "8": 4,
+        "15": 4,
+        "16": 8,
+        "17": 8
+      }
+    ]
+  ]
+}

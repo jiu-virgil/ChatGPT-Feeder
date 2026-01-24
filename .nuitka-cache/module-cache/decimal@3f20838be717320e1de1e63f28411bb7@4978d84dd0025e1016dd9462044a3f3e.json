@@ -1,0 +1,67 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "decimal",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_decimal.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_decimal",
+      "reason": "import",
+      "source_ref_line": 102
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_decimal.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_decimal",
+      "reason": "import",
+      "source_ref_line": 103
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\DLLs\\_decimal.pyd",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "extension",
+      "module_name": "_decimal",
+      "reason": "import",
+      "source_ref_line": 104
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\_pydecimal.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_pydecimal",
+      "reason": "import",
+      "source_ref_line": 106
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 107
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.20869419999871752,
+      5,
+      {
+        "1": 5,
+        "2": 5,
+        "6": 5,
+        "9": 3,
+        "10": 1,
+        "11": 1
+      }
+    ]
+  ]
+}

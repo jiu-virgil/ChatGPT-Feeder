@@ -28,7 +28,7 @@ jobs:
               with:
                   path: |
                       .venv
-                  key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+                  key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt', 'requirements-dev.txt') }}
                   restore-keys: |
                       ${{ runner.os }}-venv-
 
@@ -38,8 +38,7 @@ jobs:
                   python -m venv .venv
                   source .venv/bin/activate
                   python -m pip install --upgrade pip
-                  pip install -r requirements.txt
-                  pip install pyinstaller
+                  pip install -r requirements-dev.txt
               shell: bash
 
             - name: Save environment as artifact
@@ -70,37 +69,95 @@ jobs:
               with:
                   python-version: "3.x"
 
-            - name: Activate virtual environment and install dependencies (Linux & macOS)
+            - name: Activate virtual environment and verify dependencies (Linux & macOS)
               if: runner.os != 'Windows'
               run: |
                   source .venv/bin/activate
+                  pip install -r requirements-dev.txt
               shell: bash
 
-            - name: Activate virtual environment and install dependencies (Windows)
+            - name: Activate virtual environment and verify dependencies (Windows)
               if: runner.os == 'Windows'
               run: |
                   .\.venv\Scripts\activate
+                  pip install -r requirements-dev.txt
               shell: powershell
 
-            - name: Build with PyInstaller (Linux & macOS)
-              if: runner.os != 'Windows'
+            - name: Build with Nuitka (Linux)
+              if: runner.os == 'Linux'
               run: |
                   source .venv/bin/activate
-                  pyinstaller --onefile --windowed --icon=resources/spoon.png main.py
+                  nuitka main.py \
+                    --standalone \
+                    --onefile \
+                    --enable-plugin=pyside6 \
+                    --include-data-dir=resources=resources \
+                    --include-data-dir=src=src \
+                    --output-dir=dist \
+                    --output-filename=Spoon \
+                    --assume-yes-for-downloads \
+                    --remove-output \
+                    --lto=yes \
+                    --python-flag=-O \
+                    --no-pyi-file
               shell: bash
 
-            - name: Build with PyInstaller (Windows)
+            - name: Build with Nuitka (macOS)
+              if: runner.os == 'macOS'
+              run: |
+                  source .venv/bin/activate
+                  nuitka main.py \
+                    --standalone \
+                    --onefile \
+                    --enable-plugin=pyside6 \
+                    --include-data-dir=resources=resources \
+                    --include-data-dir=src=src \
+                    --output-dir=dist \
+                    --output-filename=Spoon \
+                    --assume-yes-for-downloads \
+                    --remove-output \
+                    --lto=yes \
+                    --python-flag=-O \
+                    --no-pyi-file
+              shell: bash
+
+            - name: Build with Nuitka (Windows)
+              id: build-nuitka-windows
               if: runner.os == 'Windows'
               run: |
                   .\.venv\Scripts\activate
-                  pyinstaller --onefile --windowed --icon=resources/spoon.png main.py
+                  nuitka main.py `
+                    --standalone `
+                    --onefile `
+                    --enable-plugin=pyside6 `
+                    --windows-icon-from-ico=resources/spoon.ico `
+                    --include-data-dir=resources=resources `
+                    --include-data-dir=src=src `
+                    --output-dir=dist `
+                    --output-filename=Spoon.exe `
+                    --assume-yes-for-downloads `
+                    --remove-output `
+                    --lto=yes `
+                    --python-flag=-O `
+                    --no-pyi-file
               shell: powershell
+              continue-on-error: true
 
-            - name: Upload build artifact
+            - name: Upload Nuitka build artifact (Linux & macOS)
+              if: runner.os != 'Windows'
               uses: actions/upload-artifact@v4
               with:
                   name: ${{ matrix.os }}-build
                   path: dist/
+                  if-no-files-found: error
+
+            - name: Upload Nuitka build artifact (Windows)
+              if: runner.os == 'Windows' && steps.build-nuitka-windows.outcome == 'success'
+              uses: actions/upload-artifact@v4
+              with:
+                  name: ${{ matrix.os }}-build
+                  path: dist/
+                  if-no-files-found: error
 
     # Step 3: Create a release concurrently with builds
     release:

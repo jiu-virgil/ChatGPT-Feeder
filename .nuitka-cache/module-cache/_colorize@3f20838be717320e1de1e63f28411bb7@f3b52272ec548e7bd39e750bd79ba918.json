@@ -1,0 +1,66 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_colorize",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\__future__.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "__future__",
+      "reason": "import",
+      "source_ref_line": 1
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\os.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "os",
+      "reason": "import",
+      "source_ref_line": 2
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "sys",
+      "reason": "import",
+      "source_ref_line": 3
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "nt",
+      "reason": "import",
+      "source_ref_line": 109
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.011636000002908986,
+      5,
+      {
+        "1": 61,
+        "2": 34,
+        "3": 1,
+        "4": 11,
+        "5": 7,
+        "6": 2,
+        "7": 1,
+        "8": 7,
+        "9": 2,
+        "11": 5,
+        "18": 2,
+        "19": 2,
+        "24": 1,
+        "44": 1
+      }
+    ]
+  ]
+}

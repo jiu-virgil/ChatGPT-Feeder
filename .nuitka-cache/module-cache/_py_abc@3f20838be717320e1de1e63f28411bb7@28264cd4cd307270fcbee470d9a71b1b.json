@@ -1,0 +1,46 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "_py_abc",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\_weakrefset.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "_weakrefset",
+      "reason": "import",
+      "source_ref_line": 1
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.048214200000074925,
+      7,
+      {
+        "1": 201,
+        "2": 79,
+        "3": 16,
+        "4": 19,
+        "5": 7,
+        "6": 19,
+        "7": 11,
+        "8": 3,
+        "10": 6,
+        "12": 10,
+        "14": 14,
+        "15": 7,
+        "18": 3,
+        "19": 1,
+        "20": 1,
+        "22": 5,
+        "29": 1,
+        "30": 2,
+        "41": 5,
+        "49": 1,
+        "52": 1
+      }
+    ]
+  ]
+}

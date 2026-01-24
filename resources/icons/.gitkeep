@@ -1,0 +1,6 @@
+# This file ensures the icons directory is tracked by git
+# Icon files (*.svg) are ignored - download them using .\download_icons.ps1
+
+
+
+

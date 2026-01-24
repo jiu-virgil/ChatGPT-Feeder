@@ -1,0 +1,76 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "email._parseaddr",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "time",
+      "reason": "import",
+      "source_ref_line": 16
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\calendar.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "calendar",
+      "reason": "import",
+      "source_ref_line": 199
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.17906190000212518,
+      6,
+      {
+        "1": 280,
+        "2": 581,
+        "3": 146,
+        "4": 22,
+        "5": 18,
+        "6": 10,
+        "7": 12,
+        "8": 5,
+        "9": 24,
+        "10": 12,
+        "11": 1,
+        "13": 12,
+        "14": 5,
+        "15": 2,
+        "17": 1,
+        "18": 4,
+        "19": 2,
+        "20": 2,
+        "28": 4,
+        "31": 1,
+        "32": 1,
+        "49": 4,
+        "51": 1,
+        "52": 1,
+        "55": 4,
+        "57": 4,
+        "58": 2,
+        "60": 5,
+        "62": 1,
+        "65": 1,
+        "68": 1,
+        "76": 4,
+        "80": 1,
+        "83": 1,
+        "107": 4,
+        "111": 1,
+        "115": 1,
+        "117": 4,
+        "122": 2,
+        "129": 4,
+        "138": 1,
+        "164": 1
+      }
+    ]
+  ]
+}

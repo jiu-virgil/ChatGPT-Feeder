@@ -1,0 +1,42 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "email.encoders",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\base64.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "base64",
+      "reason": "import",
+      "source_ref_line": 15
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\quopri.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "quopri",
+      "reason": "import",
+      "source_ref_line": 16
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.0035086000025330577,
+      4,
+      {
+        "1": 18,
+        "2": 18,
+        "3": 1,
+        "4": 1,
+        "5": 8,
+        "7": 4,
+        "8": 2,
+        "9": 2
+      }
+    ]
+  ]
+}

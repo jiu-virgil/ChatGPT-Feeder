@@ -1,0 +1,22 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "token",
+  "modules_used": [],
+  "timing_infos": [
+    [
+      1,
+      0.011576100001548184,
+      5,
+      {
+        "1": 31,
+        "2": 15,
+        "3": 11,
+        "4": 3,
+        "6": 2,
+        "8": 3,
+        "10": 2
+      }
+    ]
+  ]
+}

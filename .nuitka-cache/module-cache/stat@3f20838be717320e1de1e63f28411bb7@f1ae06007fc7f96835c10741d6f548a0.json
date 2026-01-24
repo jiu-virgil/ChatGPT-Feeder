@@ -1,0 +1,33 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "stat",
+  "modules_used": [
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_stat",
+      "reason": "import",
+      "source_ref_line": 205
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.02451930000097491,
+      8,
+      {
+        "1": 56,
+        "2": 60,
+        "3": 24,
+        "5": 14,
+        "7": 6,
+        "8": 9,
+        "9": 1,
+        "12": 8
+      }
+    ]
+  ]
+}

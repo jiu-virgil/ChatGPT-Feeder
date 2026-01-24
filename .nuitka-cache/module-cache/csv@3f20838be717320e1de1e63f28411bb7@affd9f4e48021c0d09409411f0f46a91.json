@@ -1,0 +1,94 @@
+{
+  "distribution_names": {},
+  "file_format_version": 7,
+  "module_name": "csv",
+  "modules_used": [
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\re",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "re",
+      "reason": "import",
+      "source_ref_line": 66
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\types.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "types",
+      "reason": "import",
+      "source_ref_line": 67
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_csv",
+      "reason": "import",
+      "source_ref_line": 68
+    },
+    {
+      "filename": null,
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "built-in",
+      "module_name": "_csv",
+      "reason": "import",
+      "source_ref_line": 73
+    },
+    {
+      "filename": "C:\\Users\\jiuvi\\AppData\\Roaming\\uv\\python\\cpython-3.13.11-windows-x86_64-none\\Lib\\io.py",
+      "finding": "absolute",
+      "level": 0,
+      "module_kind": "py",
+      "module_name": "io",
+      "reason": "import",
+      "source_ref_line": 75
+    }
+  ],
+  "timing_infos": [
+    [
+      1,
+      0.26517579999926966,
+      9,
+      {
+        "1": 966,
+        "2": 586,
+        "3": 93,
+        "4": 84,
+        "5": 29,
+        "6": 15,
+        "7": 20,
+        "8": 16,
+        "9": 3,
+        "10": 16,
+        "11": 7,
+        "12": 8,
+        "13": 32,
+        "14": 61,
+        "15": 37,
+        "16": 3,
+        "17": 5,
+        "18": 11,
+        "19": 1,
+        "22": 1,
+        "23": 7,
+        "24": 1,
+        "28": 2,
+        "32": 14,
+        "34": 1,
+        "36": 7,
+        "37": 1,
+        "40": 2,
+        "42": 1,
+        "44": 1,
+        "77": 7,
+        "101": 1,
+        "105": 1
+      }
+    ]
+  ]
+}
